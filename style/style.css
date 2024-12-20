@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.menu {
+    background-color: #DFFFE1;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.btn_menu {
+    background-color: #C4C3D0;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn_menu:hover {
+    background-color: #DFFFE1;
+    border: 3px solid #FFBF00;
+    color: #FFBF00;
+}
+
+.btn_menu_1 {
+    background-color: #DFFFE1;
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+}
+
+.menu h3{
+    display: flex;
+}
+
+.container {
+    padding: 0 100px;
+}
+
+.nav .container
+{
+    display: flex;
+}
+
+.img {
+    display: flex;
+    justify-content: end;
+}
+
+.flexdiv-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.loyiha h1{
+    text-align: center;
+}
+
+.loyiha {
+    background-color: #DFFFE1;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+}
+
+.parent_2 {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    margin-top: 10px;
+}
+
+.btn_menu_2 {
+    background-color: #C4C3D0;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.btn_menu_2:hover {
+    background-color: #fff;
+    border: 3px solid #FFBF00;
+    color: #FFBF00;
+}
